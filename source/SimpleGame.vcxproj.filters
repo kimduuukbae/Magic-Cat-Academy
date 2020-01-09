@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Shaders">
+      <UniqueIdentifier>{aa86e47f-445f-4440-9a76-173363b46c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1933eb0a-dc11-45b1-9f45-d4b56358c5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{c69d3f6d-4970-40a4-903d-f6bd147d1830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a439f676-0122-4768-9eb8-df72053ab5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{9f6d47c5-5618-4f42-bbed-5c95620d6737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base">
+      <UniqueIdentifier>{31c5a18f-dfce-4d1f-bde5-506f2750fe42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MagicCat">
+      <UniqueIdentifier>{463aa8cc-1ee5-43a6-95d8-abc5ba2b1854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MagicCat\State">
+      <UniqueIdentifier>{b2bd20af-749b-4d21-b8cd-aae01af883b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Observer">
+      <UniqueIdentifier>{aed03b07-7ed3-408c-9b3c-c198173b5c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ghost">
+      <UniqueIdentifier>{e0696100-b362-4231-9630-6c42996a8696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ghost\State">
+      <UniqueIdentifier>{c6db35b0-54f5-439e-b984-fbb80161b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\AttackPack">
+      <UniqueIdentifier>{ecec21f0-f301-4a30-a591-cb1aec8a8778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Number">
+      <UniqueIdentifier>{8ef7e732-bc6f-49f0-a892-86136f0ad2ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadPng.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IRigidBodyComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollisionComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PointManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>Object\MagicCat</Filter>
+    </ClInclude>
+    <ClInclude Include="CatIdle.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CatState.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CatCasting.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CatCastingLineRed.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CatCastingLineBlue.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Object\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Object\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Object\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="CatCastingLineYellow.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CatCastingLineGreen.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Object\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostFade.h">
+      <Filter>Object\Ghost\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostAttack.h">
+      <Filter>Object\Ghost\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostIdle.h">
+      <Filter>Object\Ghost\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostDie.h">
+      <Filter>Object\Ghost\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostState.h">
+      <Filter>Object\Ghost\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackPack.h">
+      <Filter>Object\AttackPack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSymbol.h">
+      <Filter>Object\AttackPack</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CatDie.h">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberPack.h">
+      <Filter>Object\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Object\Number</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadPng.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IRigidBodyComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PointManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>Object\MagicCat</Filter>
+    </ClCompile>
+    <ClCompile Include="CatIdle.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CatCasting.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CatCastingLineRed.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CatCastingLineBlue.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Object\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Object\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="CatCastinglineYellow.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CatCastingLineGreen.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Object\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostFade.cpp">
+      <Filter>Object\Ghost\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostAttack.cpp">
+      <Filter>Object\Ghost\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostIdle.cpp">
+      <Filter>Object\Ghost\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostDie.cpp">
+      <Filter>Object\Ghost\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ICollisionComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackPack.cpp">
+      <Filter>Object\AttackPack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackSymbol.cpp">
+      <Filter>Object\AttackPack</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CatDie.cpp">
+      <Filter>Object\MagicCat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberPack.cpp">
+      <Filter>Object\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Object\Number</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\SolidRect.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\SolidRect.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
