@@ -6,4 +6,4 @@ motive : https://www.google.com/doodles/halloween-2016
 
 google doodles halloween 2016 : Magic Cat Academy
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+[![Magic Cat Academy](https://i9.ytimg.com/vi/LkcUQ_tSKIY/mq2.jpg?sqp=CPScw_kF&rs=AOn4CLAEEwm9_nXSvY1oGc5r8GSGgTm7Ww)](https://youtu.be/LkcUQ_tSKIY "Magic Cat Academy")
